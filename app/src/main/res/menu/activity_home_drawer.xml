@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/meun_homepage"
+            android:icon="@drawable/babyhead"
+            android:title="@string/menu_mybaby" />
+        <item
+            android:id="@+id/meun_graphs"
+            android:icon="@drawable/electrocardiogram"
+            android:title="@string/menu_graphs" />
+        <item
+            android:id="@+id/meun_quicktips"
+            android:icon="@drawable/medicine"
+            android:title="@string/menu_quicktips" />
+        <item
+            android:id="@+id/meun_places"
+            android:icon="@drawable/map"
+            android:title="@string/meun_places" />
+        <item
+            android:id="@+id/meun_setting"
+            android:icon="@drawable/molecule"
+            android:title="@string/menu_settings" />
+        <item
+            android:id="@+id/meun_howitwork"
+            android:icon="@drawable/shape"
+            android:title="@string/menu_howitworks" />
+        <item
+            android:id="@+id/meun_aboutas"
+            android:icon="@drawable/command"
+            android:title="@string/menu_aboutas" />
+    </group>
+</menu>

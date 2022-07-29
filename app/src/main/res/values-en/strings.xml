@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BabyCare</string>
+
+    <string name="intro_next">Next</string>
+    <string name="intro_skip">Skip</string>
+    <string name="intro_finich">Start</string>
+    <string name="intro_1_title">Baby care for smartphone is in touch with the bracelet, which enables you to control the health of your kid over monitoring his temperature, Heart beats, Proportion of CO2 and many options.</string>
+    <string name="intro_2_title">The Dioxide of Carbon has an important role to control your baby\'s life, which sometimes causes  suffocation to him if it is high in the surround, so, with this application you may recognize the proportion of CO2 to protect your baby</string>
+    <string name="intro_3_title">The kid\'s temperature would suddenly get higher due to hidden causes, that\'s why we suggest to you this product to follow the health status of the baby and control his temperature.</string>
+    <string name="intro_4_title">The Heart Beats: the heart is the most important organ in the body of human, especially your baby, and now you can control his heart beats thanks to this application.</string>
+    <string name="intro_5_title">This Application shows you all the nearby Pharmacies and Hospitals by using GPS if your baby is in a dangerous situation.</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="menu_mybaby">MY BABY</string>
+    <string name="menu_graphs">GRAPHICS</string>
+    <string name="menu_quicktips">QUICK TIPS</string>
+    <string name="meun_places">PLACES HELP</string>
+    <string name="menu_settings">SETTING</string>
+    <string name="menu_howitworks">HOW IT WORKS</string>
+    <string name="menu_aboutas">ABOUT</string>
+
+    <string-array name="location_array">
+        <item>Hopitals</item>
+        <item>Pharmacise</item>
+    </string-array>
+
+    <string-array name="timegraph_array">
+        <item>Today</item>
+        <item>Yesterday</item>
+        <item>Last 7 days</item>
+    </string-array>
+
+    <string name="data_co2" formatted="false">
+        <![CDATA[
+        •	If the percentage of CO2 is more than 50 % inside the entourage, you should change the house to another for your baby .<br><br>
+        ]]>
+    </string>
+
+    <string name="data_sleep" formatted="false">
+        <![CDATA[
+        •	If the age of the baby is between 0 and 6 weeks, he would sleep 14 to 18 hours/day.<br><br>
+        •	If the age of the baby is between 6 weeks 3 months, he would sleep 11 to 15 hours/day.<br><br>
+        •	If the age of the baby is between 3 and 6 months, he would sleep 12 to 14 hours/day.<br><br>
+        •	If the age of the baby is between 6 and 9 months, he would sleep12 to 14 hours/day.<br><br>
+        •	If the age of the baby is between 9 and 12 months, he would sleep 12 to 14 hours/day.<br><br>
+        •	If the age of the baby 12 and 18 months, he would sleep12 to 14 hours/day.<br><br>
+        •	If the age of the baby is between 18 months and 3 years, he would sleep 11 to 14 hours/day.<br><br>
+        ]]>
+    </string>
+
+    <string name="data_heath" formatted="false">
+        <![CDATA[
+        •	If the age of the baby is between 0 day and 3 months, the normal of heart\'s beats are between 100 and 150 per minute.<br><br>
+        •	If the age of the baby is between 3 and 6 months, the normal of heart\'s beats should be between 90 and 120 per minute.<br><br>
+        •	If the age of the baby is between 6 and 12 months, the normal of heart\'s beats should be between 80 and 120 per minute.<br><br>
+        •	If the age of the kid is between 1 and 3 years, the normal of heart\'s beats should be between 70 and 110 per minute.<br><br>
+        ]]>
+    </string>
+
+    <string name="data_temp" formatted="false">
+        <![CDATA[
+        •	The temperature is normal when it is between 38,3° and 37,6°.<br><br>
+        •	The temperature is not normal when it is less of 36°, we might see if the window is opened or the baby is feeling sick.<br><br>
+        •	When the temperature is more than 38°, then it\'s urgent to take him to hospital.<br><br>
+        ]]>
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_data">DataActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="setting_lang"> Choose language: </string>
+    <string name="setting_prenom"> Baby\'s first name: </string>
+    <string name="setting_dob"> Date of birth: </string>
+    <string name="setting_img"> Picture: </string>
+    <string name="setting_save"> Save </string>
+    <string name="title_activity_page">PageActivity</string>
+
+    <string name="astuces_1"> Variation in size according to age </string>
+    <string name="astuces_2"> The Variation of Weight on account age </string>
+    <string name="astuces_3"> Dental eruption in a normal child </string>
+    <string name="astuces_4"> Advantage of breast milk </string>
+    <string name="astuces_5"> Diversified Infant Feeding </string>
+
+    <string name="desc_astuces_1" formatted="false">
+        <![CDATA[
+        <h3 style=\"text-align:center;padding:50px;\">Variation in size according to age :</h3>\n
+            <p style=\"line-height:200%;\">\n
+            It is 50 cm at birth \n
+            <br>\n
+        <br><span style=\"margin-left: 20px;\">- </span> From birth to 6 months it increases by 3 cm / month \n
+        <br><span style=\"margin-left: 20px;\">- </span> From 6 months to 12 months it increases by 1.5 cm / month \n
+        <br><span style=\"margin-left: 20px;\">- </span> The 2nd year increases by 10 cm / year\n
+        <br><span style=\"margin-left: 20px;\">- </span> Then 5 cm each year until puberty. \n
+        </p>
+        ]]>
+    </string>
+    <string name="desc_astuces_2" formatted="false">
+        <![CDATA[<h3 style=\"text-align:center;padding:50px;\">The Variation of Weight on account age:</h3><p style=\"line-height:200%;\">\n
+            From the birth, the normal weight is about 3000 g to 4000 g, but persons are varied about 2500 to 4000 g.\n
+            And he gets:\n
+            <br><span style=\"margin-left: 20px;\">- </span> 25 g per day till 3 months;\n
+            <br><span style=\"margin-left: 20px;\">- </span> 20 g per day from 3 months to 6 months;
+            <br><span style=\"margin-left: 20px;\">- </span> 10 to 15 g per day from 6 months to 12 months.
+            And finally he gets stabilized in a constant growing of 2 to 3 kg each year.</p>
+        ]]>
+    </string>
+    <string name="desc_astuces_3" formatted="false">
+        <![CDATA[
+        <style type=\"text/css\">\n
+    \ttable tr td{padding: 10px;background: #eee;}\n
+    \t.head td{background: #ddd;font-weight: bold;}\n
+    </style>\n
+    <h3 style=\"text-align:center;padding:50px;\">Dental eruption in a normal child from 6 months to 24 months :</h3>\n
+    <p style=\"line-height:100%;padding:20px\">\n
+    \t<table style=\"width:100%;\">\n
+    \t\t<tbody>\n
+\t\t\t<tr class=\"head\">\n
+\t\t\t\t<td width=\\\"291\\\">\n
+\t\t\t\t\t<p>Age</p>\n
+\t\t\t\t</td>\n
+    \t\t\t\t<td width=\\\"291\\\">\n
+    \t\t\t\t\t<p>Teeth</p>\n
+    \t\t\t\t</td>\n
+    \t\t\t</tr>\n
+    \t\t\t<tr>\n
+\t\t\t\t<td width=\\\"291\\\">\n
+\t\t\t\t\t<p>6 months</p>\n
+\t\t\t\t</td>\n
+    \t\t\t\t<td width=\\\"291\\\">\n
+    \t\t\t\t\t<p>2 incisors</p>\n
+    \t\t\t\t</td>\n
+    \t\t\t</tr>\n
+    \t\t\t<tr>\n
+\t\t\t\t<td width=\\\"291\\\">\n
+\t\t\t\t\t<p>8 months</p>\n
+\t\t\t\t</td>\n
+    \t\t\t\t<td width=\\\"291\\\">\n
+    \t\t\t\t\t<p>4 incisors</p>\n
+    \t\t\t\t</td>\n
+    \t\t\t</tr>\n
+    \t\t\t<tr>\n
+\t\t\t\t<td width=\\\"291\\\">\n
+\t\t\t\t\t<p>10 months</p>\n
+\t\t\t\t</td>\n
+    \t\t\t\t<td width=\\\"291\\\">\n
+    \t\t\t\t\t<p>6 incisors</p>\n
+    \t\t\t\t</td>\n
+    \t\t\t</tr>\n
+    \t\t\t<tr>\n
+\t\t\t\t<td width=\\\"291\\\">\n
+\t\t\t\t\t<p>12 months</p>\n
+\t\t\t\t</td>\n
+    \t\t\t\t<td width=\\\"291\\\">\n
+    \t\t\t\t\t<p>8 incisors</p>\n
+    \t\t\t\t</td>\n
+    \t\t\t</tr>\n
+    \t\t\t<tr>\n
+\t\t\t\t<td width=\\\"291\\\">\n
+\t\t\t\t\t<p>18 months</p>\n
+\t\t\t\t</td>\n
+    \t\t\t\t<td width=\\\"291\\\">\n
+    \t\t\t\t\t<p>8 incisors + 4 premolars</p>\n
+    \t\t\t\t</td>\n
+    \t\t\t</tr>\n
+    \t\t\t<tr>\n
+\t\t\t\t<td width=\\\"291\\\">\n
+\t\t\t\t\t<p>24 mois</p>\n
+\t\t\t\t</td>\n
+    \t\t\t\t<td width=\\\"291\\\">\n
+    \t\t\t\t\t<p>8 incisors + 4 premolars</p>\n
+    \t\t\t\t</td>\n
+    \t\t\t</tr>\n
+    \t\t</tbody>\n
+    \t</table>\n
+    </p>
+        ]]>
+    </string>
+    <string name="desc_astuces_4" formatted="false">
+        <![CDATA[
+        <h3 style=\"text-align:center;padding:50px;\">Advantage of breast milk : </h3><p style=\"line-height:200%;\">-\tImmunological Properties ; \n
+    <br><span style=\"margin-left: 20px;\">- </span>The milk is assimilated to 96% because it does not undergo any alteration on contact with air or boiling ;\n
+    <br><span style=\"margin-left: 20px;\">- </span>He is available ;\n
+    <br><span style=\"margin-left: 20px;\">- </span>Its sweet taste does not refer to a sweet diet ;\n
+    <br><span style=\"margin-left: 20px;\">- </span>Presents economic benefits. \n
+    \n</p>
+        ]]>
+    </string>
+    <string name="desc_astuces_5" formatted="false">
+        <![CDATA[
+            <h3 style=\"text-align:center;padding:50px;\">Diversified Infant Feeding :</h3><p style=\"line-height:200%;\">From the 6th month, milk alone does not cover the needs of the child. Other foods should be added in addition to breastfeeding. \n
+     Among the foods to introduce flours consisting of cereals (wheat, barley, rice) and starch (potato, seeds) \n
+    We see that instant flours are available in pharmacies.\n
+    For a balanced diet, you can add a soup and vegetable purée: potato; a carrot ; a leek ; a turnip; a handful of green vegetables (spinach or parsley); salt, butter or oil. \n
+     Technical :\n
+    <br><span style=\"margin-left: 20px;\">• </span> Choosing Freshly Colored Vegetables\n
+    <br><span style=\"margin-left: 20px;\">• </span> Wash thoroughly\n
+    <br><span style=\"margin-left: 20px;\">• </span> Cook them with water or steam \n
+    <br><span style=\"margin-left: 20px;\">• </span> Add a small piece of fresh butter or 1 teaspoon of oil at the end of preparation. \n
+    \n
+    \n</p>
+        ]]>
+    </string>
+    <string name="conntect_devce">Connect to device</string>
+    <string name="last_session">Last Session</string>
+</resources>

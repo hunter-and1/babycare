@@ -1,0 +1,194 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wicoding.injaz.babycare.FragmentGraph"
+    android:padding="30dp"
+    android:background="@drawable/bg_graph">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:background="@drawable/grop">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        app:srcCompat="@drawable/stethoscope"
+                        android:id="@+id/imageView4" />
+
+                    <com.wicoding.injaz.babycare.MyTextView
+                        android:text="95%"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp" />
+
+                    <Button
+                        android:text="Ox Levels"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/buttonCO2"
+                        android:theme="@style/MyButton"
+                        android:textColor="#fff" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        app:srcCompat="@drawable/heartbeat"
+                        android:id="@+id/imageView5" />
+
+                    <com.wicoding.injaz.babycare.MyTextView
+                        android:text="137/min"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+                        android:textAlignment="center"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp" />
+
+                    <Button
+                        android:text="Heart rate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:theme="@style/MyButton"
+                        android:textColor="#fff"
+                        android:id="@+id/buttonHeath" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        app:srcCompat="@drawable/hermometer"
+                        android:id="@+id/imageView7" />
+
+                    <com.wicoding.injaz.babycare.MyTextView
+                        android:text="36 °C"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal|bold"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+                        android:textAlignment="center"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp" />
+
+                    <Button
+                        android:text="Temperature"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:theme="@style/MyButton"
+                        android:textColor="#fff"
+                        android:id="@+id/buttonTemp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        app:srcCompat="@drawable/eye"
+                        android:id="@+id/imageView6" />
+
+                    <com.wicoding.injaz.babycare.MyTextView
+                        android:text="2h 37min"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:textStyle="normal|bold"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp" />
+
+                    <Button
+                        android:text="Sleeping"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:theme="@style/MyButton"
+                        android:textColor="#fff"
+                        android:id="@+id/buttonSleep" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>

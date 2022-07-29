@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BabyCare</string>
+    <string name="intro_next"> Suivant </string>
+    <string name="intro_skip"> Ignorer </string>
+    <string name="intro_finich"> Démarrer </string>
+    <string name="intro_1_title">Baby Care pour smartphone en rapport avec le bracelet, vous pouvez poursuivre la santé de votre bébé à partir de surveiller sa température, ses battements du coeur, la proportion de CO2 et plus d\'options.</string>
+    <string name="intro_2_title">Le dioxyde de carbone a un rôle important pour la poursuite de la vie, mais son abondance dans l\'air qui entoure votre bébé constituent un danger pour lui, donc vous devez contrôler la proportion de CO2 pour protéger votre bébé.</string>
+    <string name="intro_3_title">La température monte à l\'enfant soudainement sans symptômes, alors nous vous offrons ce produit que vous pouvez suivre l\'état de santé de votre bébé et contrôler régulièrement sa température.</string>
+    <string name="intro_4_title">Les battements du coeur : Le coeur est l\'organe le plus important dans le corps de votre bébé et vous pouvez maintenir sa stabilité grâce à la surveillance permanente de ses battements</string>
+    <string name="intro_5_title">Vous pouvez surveiller les allées et venues de votre bébé en permanence notre produits vous offre  cette fonction  qui rassure votre bébé quelque sois la distance entre vous et votre bébé vous resterez près de lui</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="menu_mybaby">MON BÉBÉ</string>
+    <string name="menu_graphs">GRAPHIQUES</string>
+    <string name="menu_quicktips">ASTUCES RAPIDES</string>
+    <string name="meun_places">LIEUX AIDENT</string>
+    <string name="menu_settings">PARAMÈTRES</string>
+    <string name="menu_howitworks">COMMENT ÇA MARCHE</string>
+    <string name="menu_aboutas">À PROPOS</string>
+
+    <string-array name="location_array">
+        <item> Les hôpitaux </item>
+        <item> Pharmacie </item>
+    </string-array>
+
+    <string-array name="timegraph_array">
+        <item> Aujourd\'hui </item>
+        <item> Hier </item>
+        <item> 7 derniers jours </item>
+    </string-array>
+
+    <string name="data_co2" formatted="false">
+        <![CDATA[
+        •	Si le pourcentage du CO2 dans l\'entourage est plus que 50 % , va changé la chambre où se trouve ton bébé par une autre .<br><br>
+        ]]>
+    </string>
+    <string name="data_sleep" formatted="false">
+        <![CDATA[
+        •	Si l\'âge du bébé est entre 0 et 6 semaines : il sera dormi 14 à 18 heurs/j.<br><br>
+        •	Si l\'âge du bébé est entre 6 semaines et 3 mois : il sera dormi 11 à 15 heurs/j.<br><br>
+        •	Si l\'âge du bébé est entre 3 et 6 mois : il sera dormi 12 à 14 heurs/j.<br><br>
+        •	Si l\'âge du bébé est entre 6 et 9 mois : il sera dormi 12 à 14 heurs/j.<br><br>
+        •	Si l\'âge du bébé est entre 9 et 12 mois : il sera dormi 12 à 14 heurs/j.<br><br>
+        •	Si l\'âge du bébé est entre 12 et 18 mois : il sera dormi 12 à 14 heurs/j.<br><br>
+        •	Si l\'âge du bébé est entre 18 mois et 3 ans : il sera dormi 11 à 14 heurs/j.<br><br>
+        ]]>
+    </string>
+    <string name="data_heath" formatted="false">
+        <![CDATA[
+        •	Si l\'âge du bébé est entre 0 jour à 3 mois. La moyenne des battements du cœur sont entre 100 et 150 par min.<br><br>
+        •	Si l\'âge du bébé est entre 3 et 6 mois, la moyenne des battements est entre 90 et 120 par min.<br><br>
+        •	Si l\'âge du bébé est entre 6 et 12 mois, la moyenne des battements est entre 80 et 120 par min.<br><br>
+        •	Si l\'âge de l\'enfant est entre 1 et 3 ans, la moyenne des battements est entre 70 et 110 par min.<br><br>
+        ]]>
+    </string>
+    <string name="data_temp" formatted="false">
+        <![CDATA[
+        •	La température entre 36.3° et 37.6° est normal.<br><br>
+        •	La température moin de 36° est anormale va voir ton bébé si la fenêtre est ouverte, ou le bébé est malade.<br><br>
+        •	La température plus que 38° c\'est urgent tu dois prend le à l\'hôpital.<br><br>
+        ]]>
+    </string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_data">DataActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="setting_lang">Choisir la langue :</string>
+    <string name="setting_prenom">Prénom de bébé :</string>
+    <string name="setting_dob">Date de naissance :</string>
+    <string name="setting_img">Photo :</string>
+    <string name="setting_save">Enregistrer</string>
+    <string name="title_activity_page">PageActivity</string>
+
+    <string name="astuces_1">Variation de la taille selon l\'âge</string>
+    <string name="astuces_2">Variation du poids selon l\'âge</string>
+    <string name="astuces_3">L\'éruption dentaire chez un enfant normal</string>
+    <string name="astuces_4">Avantage du lait maternel</string>
+    <string name="astuces_5">Alimentation diversifiée du nourrisson</string>
+
+    <string name="desc_astuces_1" formatted="false">
+        <![CDATA[
+        <h3 style=\"text-align:center;padding:50px;\">Variation de la taille selon l\'âge :</h3>\n
+            <p style=\"line-height:200%;\">\n
+            Elle est de 50 cm à la naissance \n
+            <br>\n
+        <br><span style=\"margin-left: 20px;\">- </span> De la naissance à 6 mois elle augmente de 3 cm / mois \n
+        <br><span style=\"margin-left: 20px;\">- </span> De 6 mois à 12 mois elle augmente  de 1.5 cm /mois \n
+        <br><span style=\"margin-left: 20px;\">- </span> La 2 ème année augmente de 10 cm / année\n
+        <br><span style=\"margin-left: 20px;\">- </span> Puis 5 cm chaque année jusqu\'à l\'âge de puberté .\n
+        </p>
+        ]]>
+    </string>
+    <string name="desc_astuces_2" formatted="false">
+        <![CDATA[<h3 style=\"text-align:center;padding:50px;\">Variation du poids selon l\'âge :</h3><p style=\"line-height:200%;\">\n
+            à la naissance le poids normal est de 3000 g à 3500 g mais chez des personnes normaux il peut varier de 2500 à 4000g . \n
+            Puis il gagnera : \n
+            <br><span style=\"margin-left: 20px;\">- </span> 25 g/j jusqu\'à 3 mois ;\n
+            <br><span style=\"margin-left: 20px;\">- </span> 20g/j de 3 mois à 12 mois ;\n
+            <br><span style=\"margin-left: 20px;\">- </span> 10 à 15 g/j de 6 mois à 12 mois .\n
+            Et enfin il se stabilise à une vitesse constante de 2 à 3 kg chaque année .\n</p>
+        ]]>
+    </string>
+    <string name="desc_astuces_3" formatted="false">
+        <![CDATA[
+        <style type=\"text/css\">\n
+    \ttable tr td{padding: 10px;background: #eee;}\n
+    \t.head td{background: #ddd;font-weight: bold;}\n
+    </style>\n
+    <h3 style=\"text-align:center;padding:50px;\">L\'éruption dentaire chez un enfant normal de 6 mois à 24 mois :</h3>\n
+    <p style=\"line-height:100%;padding:20px\">\n
+    \t<table style=\"width:100%;\">\n
+    \t\t<tbody>\n
+\t\t\t<tr class=\"head\">\n
+\t\t\t\t<td width=\\\"291\\\">\n
+\t\t\t\t\t<p>Age</p>\n
+\t\t\t\t</td>\n
+    \t\t\t\t<td width=\\\"291\\\">\n
+    \t\t\t\t\t<p>dents</p>\n
+    \t\t\t\t</td>\n
+    \t\t\t</tr>\n
+    \t\t\t<tr>\n
+\t\t\t\t<td width=\\\"291\\\">\n
+\t\t\t\t\t<p>6 mois</p>\n
+\t\t\t\t</td>\n
+    \t\t\t\t<td width=\\\"291\\\">\n
+    \t\t\t\t\t<p>2 incisives</p>\n
+    \t\t\t\t</td>\n
+    \t\t\t</tr>\n
+    \t\t\t<tr>\n
+\t\t\t\t<td width=\\\"291\\\">\n
+\t\t\t\t\t<p>8 mois</p>\n
+\t\t\t\t</td>\n
+    \t\t\t\t<td width=\\\"291\\\">\n
+    \t\t\t\t\t<p>4 incisives</p>\n
+    \t\t\t\t</td>\n
+    \t\t\t</tr>\n
+    \t\t\t<tr>\n
+\t\t\t\t<td width=\\\"291\\\">\n
+\t\t\t\t\t<p>10 mois</p>\n
+\t\t\t\t</td>\n
+    \t\t\t\t<td width=\\\"291\\\">\n
+    \t\t\t\t\t<p>6 incisives</p>\n
+    \t\t\t\t</td>\n
+    \t\t\t</tr>\n
+    \t\t\t<tr>\n
+\t\t\t\t<td width=\\\"291\\\">\n
+\t\t\t\t\t<p>12 mois</p>\n
+\t\t\t\t</td>\n
+    \t\t\t\t<td width=\\\"291\\\">\n
+    \t\t\t\t\t<p>8 incisives</p>\n
+    \t\t\t\t</td>\n
+    \t\t\t</tr>\n
+    \t\t\t<tr>\n
+\t\t\t\t<td width=\\\"291\\\">\n
+\t\t\t\t\t<p>18 mois</p>\n
+\t\t\t\t</td>\n
+    \t\t\t\t<td width=\\\"291\\\">\n
+    \t\t\t\t\t<p>8 incisives&nbsp;+ 4 pr&eacute;molaires</p>\n
+    \t\t\t\t</td>\n
+    \t\t\t</tr>\n
+    \t\t\t<tr>\n
+\t\t\t\t<td width=\\\"291\\\">\n
+\t\t\t\t\t<p>24 mois</p>\n
+\t\t\t\t</td>\n
+    \t\t\t\t<td width=\\\"291\\\">\n
+    \t\t\t\t\t<p>8 incisives + 4 pr&eacute;molaires + 4 canines</p>\n
+    \t\t\t\t</td>\n
+    \t\t\t</tr>\n
+    \t\t</tbody>\n
+    \t</table>\n
+    </p>
+        ]]>
+    </string>
+    <string name="desc_astuces_4" formatted="false">
+        <![CDATA[
+        <h3 style=\"text-align:center;padding:50px;\">Avantage du lait maternel : </h3><p style=\"line-height:200%;\">-\tPropriétés immunologiques ; \n
+    <br><span style=\"margin-left: 20px;\">- </span>Le lait est assimilé à 96% parce qu\'il ne subit ni altération au contact se l\'air ni ébullition ;\n
+    <br><span style=\"margin-left: 20px;\">- </span>Il est disponible ;\n
+    <br><span style=\"margin-left: 20px;\">- </span>Son goût peu sucré n\'oriente pas vers une alimentation sucrée ;\n
+    <br><span style=\"margin-left: 20px;\">- </span>Présente des avantages économiques. \n
+    \n</p>
+        ]]>
+    </string>
+    <string name="desc_astuces_5" formatted="false">
+        <![CDATA[
+            <h3 style=\"text-align:center;padding:50px;\">Alimentation diversifiée du nourrisson :</h3><p style=\"line-height:200%;\">A partir du 6 ème mois le lait seul ne couvre pas les besoins de l\'enfant. Il faut introduire d\'autres aliments en complément de l\'allaitement. \n
+    Parmi les aliments à introduire les farines composée des céréales (blé, orge, riz) et fécules (pomme de terre, graines) \n
+    On voit que les farines instantanées sont disponibles en pharmacie.\n
+    Pour une ration alimentaire équilibré on  rajoute une soupe et purée de légumes : pomme de terre ; une carotte ; un poireau ; un navet ; une poignée de légumes vert (épinard ou persil) ; sel, beurre ou huile.\n
+    Technique :\n
+    <br><span style=\"margin-left: 20px;\">• </span> Choisir les légumes frais bien colorés\n
+    <br><span style=\"margin-left: 20px;\">• </span> Laver soigneusement\n
+    <br><span style=\"margin-left: 20px;\">• </span> Les faire cuire à l\'eau ou à la vapeur \n
+    <br><span style=\"margin-left: 20px;\">• </span> Ajouter un petit morceau de beurre frai ou 1 cuillère à café d\'huile en fin de préparation. \n
+    \n
+    \n</p>
+        ]]>
+    </string>
+    <string name="conntect_devce">Connexion au périphérique</string>
+    <string name="last_session">Dernière session</string>
+</resources>

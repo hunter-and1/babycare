@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BabyCare</string>
+
+    <string name="intro_next">التالي</string>
+    <string name="intro_skip">تجاوز</string>
+    <string name="intro_finich">إبدأ</string>
+    <string name="intro_1_title">العناية بالطفل للهاتف الذكي هو على اتصال مع سوار، والتي تمكنك من السيطرة على صحة ابنك على مراقبة درجة حرارته، نبض القلب، نسبة CO2 والعديد من الخيارات.</string>
+    <string name="intro_2_title">ثاني أكسيد الكربون من الكربون له دور مهم للسيطرة على حياة طفلك، والذي يسبب أحيانا الاختناق له إذا كان مرتفعا في محيط، لذلك، مع هذا التطبيق قد تعترف نسبة CO2 لحماية طفلك</string>
+    <string name="intro_3_title">درجة حرارة الطفل سوف تحصل فجأة أعلى بسبب أسباب خفية، وهذا هو السبب في أننا نقترح عليك هذا المنتج لمتابعة الحالة الصحية للطفل والتحكم في درجة حرارته.</string>
+    <string name="intro_4_title">القلب يدق: القلب هو الجهاز الأكثر أهمية في جسم الإنسان، وخاصة طفلك، والآن يمكنك التحكم يدق قلبه بفضل هذا التطبيق.</string>
+    <string name="intro_5_title">هذا التطبيق يظهر لك كل الصيدليات القريبة والمستشفيات باستخدام نظام تحديد المواقع إذا كان طفلك في وضع خطير.</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="menu_mybaby">طفلي</string>
+    <string name="menu_graphs">البيانات</string>
+    <string name="menu_quicktips">نصائح سريعة</string>
+    <string name="meun_places">الأماكن مساعدة</string>
+    <string name="menu_settings">إعدادات</string>
+    <string name="menu_howitworks">كيف يعمل؟</string>
+    <string name="menu_aboutas">حول</string>
+
+    <string-array name="location_array">
+        <item>المستشفيات</item>
+        <item>الصيدليات</item>
+    </string-array>
+
+    <string-array name="timegraph_array">
+        <item>اليوم</item>
+        <item>أمس</item>
+        <item>آخر 7 أيام</item>
+    </string-array>
+
+    <string name="data_co2">
+        <![CDATA[
+        •	إذا كانت النسبة المئوية لثاني أكسيد الكربون أكثر من 50٪ داخل الحاشية، يجب عليك تغيير المنزل إلى آخر لطفلك .<br><br>
+        ]]>
+    </string>
+    <string name="data_sleep">
+        <![CDATA[
+        •	   إذا كان عمر الطفل ما بين 0 و 6 أسابيع، وقال انه سوف ينام 14 إلى 18 ساعة / يوم.<br><br>
+        •	  إذا كان عمر الطفل بين 6 أسابيع 3 أشهر، وقال انه سوف ينام 11-15 ساعة / يوم.<br><br>
+        •	   إذا كان عمر الطفل ما بين 3 و 6 أشهر، وقال انه سوف ينام 12-14 ساعة / يوم.<br><br>
+        •	 إذا كان عمر الطفل بين 6 و 9 أشهر، وقال انه سوف ينام 12 إلى 14 ساعة / يوم.<br><br>
+        •	 إذا كان عمر الطفل ما بين 9 و 12 شهرا، وقال انه سوف ينام 12-14 ساعة / يوم.<br><br>
+        •	 إذا كان عمر الطفل 12 و 18 شهرا، وقال انه سوف ينام 12 إلى 14 ساعة / يوم.<br><br>
+        •	   إذا كان عمر الطفل ما بين 18 شهرا و 3 سنوات، وقال انه سوف ينام 11-14 ساعة / يوم.<br><br>
+        ]]>
+    </string>
+    <string name="data_heath">
+        <![CDATA[
+        •	  إذا كان عمر الطفل بين 0 يوم و 3 أشهر، ودقات القلب العادية ما بين 100 و 150 في الدقيقة الواحدة.<br><br>
+        •	  إذا كان عمر الطفل ما بين 3 و 6 أشهر، يجب أن يكون القلب الطبيعي يدق بين 90 و 120 في الدقيقة الواحدة.<br><br>
+        •	   إذا كان عمر الطفل ما بين 6 و 12 شهرا، يجب أن يكون القلب الطبيعي يدق بين 80 و 120 في الدقيقة الواحدة.<br><br>
+        •	  إذا كان عمر الطفل ما بين 1 و 3 سنوات، يجب أن تكون طبيعية من ضربات القلب بين 70 و 110 في الدقيقة الواحدة.<br><br>
+        ]]>
+    </string>
+    <string name="data_temp">
+        <![CDATA[
+        •	    درجة الحرارة طبيعية عندما يكون بين 38،3 درجة و 37،6 درجة.<br><br>
+        •	    درجة الحرارة ليست طبيعية عندما يكون أقل من 36 درجة، ونحن قد نرى ما إذا كان يتم فتح نافذة أو الطفل يشعر بالمرض.<br><br>
+        •	   عندما تكون درجة الحرارة أكثر من 38 درجة، فإنه يجب  أخذه إلى المستشفى.<br><br>
+        ]]>
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_data">DataActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="setting_lang">اختر اللغة :</string>
+    <string name="setting_prenom">الاسم الأول :</string>
+    <string name="setting_dob">تاريخ الميلاد :</string>
+    <string name="setting_img">صور :</string>
+    <string name="setting_save">حفظ</string>
+    <string name="title_activity_page">PageActivity</string>
+
+    <string name="astuces_1">تغير الطول وفقا العمر</string>
+    <string name="astuces_2">تغير الوزن وفقا العمر</string>
+    <string name="astuces_3">نمو الأسنان عند طفل عادي</string>
+    <string name="astuces_4">الاستفادة من حليب الثدي</string>
+    <string name="astuces_5">تغذية الرضع المتنوعة</string>
+
+    <string name="desc_astuces_1" formatted="false">
+        <![CDATA[
+        <h3 style=\"text-align:center;padding:50px;\">تغير الطول وفقا العمر :</h3>\n
+            <p style=\"line-height:200%;\">\n
+            50 سم عند الولادة \n
+            <br>\n
+        <br><span style=\"margin-left: 20px;\">- </span> من الولادة إلى 6 أشهر فإنه يزيد بنسبة 3 سم / شهر \n
+        <br><span style=\"margin-left: 20px;\">- </span> من 6 أشهر إلى 12 شهرا فإنه يزيد بنسبة 1.5 سم / شهر \n
+        <br><span style=\"margin-left: 20px;\">- </span> ويزداد العام الثاني بمقدار 10 سم / سنة\n
+        <br><span style=\"margin-left: 20px;\">- </span> ثم 5 سم كل عام حتى سن البلوغ .\n
+        </p>
+        ]]>
+    </string>
+    <string name="desc_astuces_2" formatted="false">
+        <![CDATA[<h3 style=\"text-align:center;padding:50px;\">تغير الوزن وفقا العمر :</h3><p style=\"line-height:200%;\">\n
+               من الولادة، والوزن الطبيعي هو حوالي 3000 غرام إلى 4000 غرام، ولكن الأشخاص تختلف حوالي 2500 إلى 4000 غرام.
+    ويحصل على: : \n
+            <br><span style=\"margin-left: 20px;\">- </span>  غرام يوميا حتى 3 أشهر ;\n
+            <br><span style=\"margin-left: 20px;\">- </span>  غرام يوميا من 3 أشهر إلى 6 أشهر. ;\n
+            <br><span style=\"margin-left: 20px;\">- </span>  إلى 15 غراما في اليوم من 6 أشهر إلى 12 شهرا .\n
+             وأخيرا يحصل على استقرار في نمو مستمر من 2 إلى 3 كجم كل عام .\n</p>
+        ]]>
+    </string>
+
+    <string name="desc_astuces_3" formatted="false">
+        <![CDATA[
+        <style type=\"text/css\">\n
+    \ttable tr td{padding: 10px;background: #eee;}\n
+    \t.head td{background: #ddd;font-weight: bold;}\n
+    </style>\n
+    <h3 style=\"text-align:center;padding:50px;\">نمو الأسنان في طفل طبيعي من 6 أشهر إلى 24 شهرا :</h3>\n
+    <p style=\"line-height:100%;padding:20px\">\n
+    \t<table style=\"width:100%;\">\n
+    \t\t<tbody>\n
+\t\t\t<tr class=\"head\">\n
+\t\t\t\t<td width=\\\"291\\\">\n
+\t\t\t\t\t<p>عمر</p>\n
+\t\t\t\t</td>\n
+    \t\t\t\t<td width=\\\"291\\\">\n
+    \t\t\t\t\t<p>أسنان</p>\n
+    \t\t\t\t</td>\n
+    \t\t\t</tr>\n
+    \t\t\t<tr>\n
+\t\t\t\t<td width=\\\"291\\\">\n
+\t\t\t\t\t<p>6 اشهر</p>\n
+\t\t\t\t</td>\n
+    \t\t\t\t<td width=\\\"291\\\">\n
+    \t\t\t\t\t<p>2 incisives</p>\n
+    \t\t\t\t</td>\n
+    \t\t\t</tr>\n
+    \t\t\t<tr>\n
+\t\t\t\t<td width=\\\"291\\\">\n
+\t\t\t\t\t<p>8 اشهر</p>\n
+\t\t\t\t</td>\n
+    \t\t\t\t<td width=\\\"291\\\">\n
+    \t\t\t\t\t<p>4 القواطع </p>\n
+    \t\t\t\t</td>\n
+    \t\t\t</tr>\n
+    \t\t\t<tr>\n
+\t\t\t\t<td width=\\\"291\\\">\n
+\t\t\t\t\t<p>10 اشهر</p>\n
+\t\t\t\t</td>\n
+    \t\t\t\t<td width=\\\"291\\\">\n
+    \t\t\t\t\t<p>6 القواطع </p>\n
+    \t\t\t\t</td>\n
+    \t\t\t</tr>\n
+    \t\t\t<tr>\n
+\t\t\t\t<td width=\\\"291\\\">\n
+\t\t\t\t\t<p>12 اشهر</p>\n
+\t\t\t\t</td>\n
+    \t\t\t\t<td width=\\\"291\\\">\n
+    \t\t\t\t\t<p>8 القواطع </p>\n
+    \t\t\t\t</td>\n
+    \t\t\t</tr>\n
+    \t\t\t<tr>\n
+\t\t\t\t<td width=\\\"291\\\">\n
+\t\t\t\t\t<p>18 اشهر</p>\n
+\t\t\t\t</td>\n
+    \t\t\t\t<td width=\\\"291\\\">\n
+    \t\t\t\t\t<p>8 القواطع + 4 بريمولارز </p>\n
+    \t\t\t\t</td>\n
+    \t\t\t</tr>\n
+    \t\t\t<tr>\n
+\t\t\t\t<td width=\\\"291\\\">\n
+\t\t\t\t\t<p>24 اشهر</p>\n
+\t\t\t\t</td>\n
+    \t\t\t\t<td width=\\\"291\\\">\n
+    \t\t\t\t\t<p>8 القواطع + 4 بريمولارز</p>\n
+    \t\t\t\t</td>\n
+    \t\t\t</tr>\n
+    \t\t</tbody>\n
+    \t</table>\n
+    </p>
+        ]]>
+    </string>
+    <string name="desc_astuces_4" formatted="false">
+        <![CDATA[
+        <h3 style=\"text-align:center;padding:50px;\">الاستفادة من حليب الثدي : </h3><p style=\"line-height:200%;\">-\tالخصائص المناعية ; \n
+    <br><span style=\"margin-left: 20px;\">- </span>يتم استيعاب الحليب إلى 96٪ لأنه لا يخضع لأي تغيير على اتصال مع الهواء أو الغليان ;\n
+    <br><span style=\"margin-left: 20px;\">- </span>متاح ;\n
+    <br><span style=\"margin-left: 20px;\">- </span>طعمها الحلو لا يشير إلى نظام غذائي حلو ;\n
+    <br><span style=\"margin-left: 20px;\">- </span>يوفر فوائد طبيعية. \n
+    \n</p>
+        ]]>
+    </string>
+    <string name="desc_astuces_5" formatted="false">
+        <![CDATA[
+            <h3 style=\"text-align:center;padding:50px;\">تغذية الرضع المتنوعة :</h3><p style=\"line-height:200%;\">273/5000
+من الشهر السادس، الحليب وحده لا يغطي احتياجات الطفل. وينبغي إضافة أطعمة أخرى بالإضافة إلى الرضاعة الطبيعية. \n
+     ومن بين الأطعمة التي تدخل الدقيق الذي يتكون من الحبوب (القمح والشعير والأرز) والنشا (البطاطا والبذور) \n
+    ونحن نرى أن الدقيق الفورية متوفرة في الصيدلية.\n
+    لاتباع نظام غذائي متوازن، يمكنك إضافة حساء والخضار الخضار: البطاطا. جزرة ؛ كراث؛ اللفت ؛ حفنة من الخضار الخضراء (السبانخ أو البقدونس)؛ ملح، زبدة أو زيت. \ n
+     تقني :\n
+    <br><span style=\"margin-left: 20px;\">• </span>  اختر خضار طازجة ملونة طازجة \n
+    <br><span style=\"margin-left: 20px;\">• </span> غسل بعناية\n
+    <br><span style=\"margin-left: 20px;\">• </span> طهيها بالماء أو البخار \n
+    <br><span style=\"margin-left: 20px;\">• </span>  إضافة قطعة صغيرة من الزبدة الطازجة أو 1 ملعقة صغيرة من الزيت في نهاية التحضير. \n
+    \n
+    \n</p>
+        ]]>
+    </string>
+    <string name="conntect_devce">الاتصال بالجهاز</string>
+    <string name="last_session">آخر جلسة</string>
+
+</resources>
