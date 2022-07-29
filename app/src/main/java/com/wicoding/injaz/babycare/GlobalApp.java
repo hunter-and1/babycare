@@ -28,7 +28,7 @@ import java.util.Locale;
 public class GlobalApp {
 
     public static final String MyPREFERENCES = "MyPrefsLogin";
-    public static final String MyKeyPlacesAPI = "AIzaSyDYszlij8rt0gl86Q-eUfPQWBHJfYP2MMc";
+    public static final String MyKeyPlacesAPI = "";
     public static final DataUser dataUser = new DataUser();
     private static SharedPreferences sharedpreferences = null;
     public static void initializeSharedPreferences(Context c){
